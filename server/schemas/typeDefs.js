@@ -1,4 +1,5 @@
-type UserDetails {
+const typeDefs = `
+  type UserDetails {
     _id: ID!
     username: String!
     email: String
@@ -39,4 +40,6 @@ type UserDetails {
     saveUserBook(bookData: BookInput!): UserDetails
     removeUserBook(bookId: ID!): UserDetails
   }
-  
+`;
+
+module.exports = typeDefs;
