@@ -1,3 +1,4 @@
+// resolvers.js is where we define the functions that actually execute the queries and mutations we define in typeDefs.js.
 const { User } = require('../models');
 const { createToken, AuthenticationError } = require('../utils/auth');
 
